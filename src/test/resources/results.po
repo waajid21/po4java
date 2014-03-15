@@ -1,0 +1,180 @@
+# French po translation
+# Copyright (C) 2005 Free Software Foundation, Inc.
+#
+# Initial translation: Christian Perrier <bubulle@debian.org>
+msgid ""
+msgstr ""
+"Project-Id-Version: gkdebconf\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-10-10 13:54-0300\n"
+"PO-Revision-Date: 2005-10-29 17:00+0200\n"
+"Last-Translator: Thomas Huriaux <thomas.huriaux@gmail.com>\n"
+"Language-Team: French <debian-l10n-french@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/debconf.c:86 src/debconf.c:140 src/debconf.c:150
+#, c-format
+msgid ""
+"Checking whether\n"
+"%s\n"
+"is installed"
+msgstr ""
+"Vérification de\n"
+"l'installation de\n"
+"%s"
+
+#: src/debconf.c:101
+msgid "Using debconf"
+msgstr "Utilisation de debconf"
+
+#: src/debconf.c:210 src/debconf.c:255
+msgid " frontend"
+msgstr " interface"
+
+#: src/debconf.c:215 src/debconf.c:260
+msgid "/Options"
+msgstr "/Options"
+
+#: src/debconf.c:216 src/debconf.c:261
+msgid "Select "
+msgstr "Choisir "
+
+#: src/debconf.c:242
+#, c-format
+msgid ""
+"You should install '%s' package if you need\n"
+"user-friendly configuration tool."
+msgstr ""
+"Vous devriez installer le paquet « %s » si\n"
+"vous avez besoin d'un outil convivial."
+
+#: src/debconf.c:356
+msgid ""
+"The configuration script returned an\n"
+"error status."
+msgstr ""
+"Le script de configuration a retourné\n"
+"une erreur."
+
+#: src/files.c:85
+msgid "Opening "
+msgstr "Ouverture "
+
+#: src/interface.c:149
+msgid "Sections"
+msgstr "Sections"
+
+#: src/interface.c:184
+msgid "Package description"
+msgstr "Description du paquet"
+
+#: src/interface.c:193
+msgid "Something wrong happened. Here should be the package description."
+msgstr ""
+"Une erreur est survenue. La description du paquet devrait se trouver ici."
+
+#: src/interface.c:211
+msgid "Select package"
+msgstr "Choisir un paquet"
+
+#: src/interface.c:220
+msgid "... and click \"Configure\" button"
+msgstr "... et cliquer sur le bouton « Configurer »"
+
+#: src/interface.c:279
+msgid "_Configure"
+msgstr "_Configurer"
+
+#: src/interface.c:320
+msgid "/_File"
+msgstr "/_Fichier"
+
+#: src/interface.c:321
+msgid "/File/_Quit"
+msgstr "/Fichier/_Quitter"
+
+#: src/interface.c:322
+msgid "/_Options"
+msgstr "/_Options"
+
+#: src/interface.c:323
+msgid "/Options/_Remember last Frontend"
+msgstr "/Options/_Conserver l'interface antérieure"
+
+#: src/interface.c:325
+msgid "/Options/Frontends"
+msgstr "/Options/Interfaces"
+
+#: src/interface.c:326
+msgid "/_Help"
+msgstr "/_Aide"
+
+#: src/interface.c:327
+msgid "/Help/_About"
+msgstr "/Aide/À _propos"
+
+#: src/interface.c:339
+msgid "<main>/Options/Remember last Frontend"
+msgstr "<main>/Options/Conserver l'interface antérieure"
+
+#: src/interface.c:617
+msgid ""
+"\n"
+" Starting GkDebconf... \n"
+msgstr ""
+"\n"
+" Démarrage de GkDebconf...\n"
+
+#: src/interface.c:639
+#, c-format
+msgid ""
+"GkDebconf %s\n"
+"\n"
+"This program is intended for those who are not\n"
+"used to the Debian packaging system and don't\n"
+"know how to find what packages can be reconfigured\n"
+"and how to reconfigure them.\n"
+"\n"
+"Authors:\n"
+"\n"
+"Agney Lopes Roth Ferraz <agney@users.sourceforge.net> \n"
+"Gustavo Noronha Silva <kov@debian.org>\n"
+"\n"
+"GUI improvements for version 1.2 by:\n"
+"\n"
+"Mantas Kriauciunas <mantas@akl.lt> \n"
+"Martynas Jocius <mjoc@delfi.lt> \n"
+msgstr ""
+"GkDebconf %s\n"
+"\n"
+"Ce programme est destiné aux utilisateurs de Debian\n"
+"qui n'ont pas l'habitude du système de paquets\n"
+"et ne savent pas comment trouver quels sont les\n"
+"paquets qui peuvent être reconfigurés et comment\n"
+"les reconfigurer.\n"
+"\n"
+"Auteurs :\n"
+"\n"
+"Agney Lopes Roth Ferraz <agney@users.sourceforge.net>\n"
+"Gustavo Noronha Silva <kov@debian.org>\n"
+"\n"
+"Améliorations de l'interface dans la version 1.2 par :\n"
+"\n"
+"Mantas Kriauciunas <mantas@akl.lt>\n"
+"Martynas Jocius <mjoc@delfi.lt>\n"
+
+#: src/interface.c:686
+msgid "Alert"
+msgstr "Alerte"
+
+#: src/interface.c:717
+msgid "Do not show this message again."
+msgstr "Ne plus afficher ce message."
+
+#: src/config.c:97
+#, c-format
+msgid "Error getting data: %s"
+msgstr "Erreur en récupérant les données : %s"
+
